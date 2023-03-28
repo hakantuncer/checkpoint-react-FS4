@@ -53,7 +53,8 @@ Hint: You can use:
 
 
 Use **destructuring** to retrieve props from the component props, when using them to render the item.
-Delete button should call a callback function defined inside the App component, that will remove an item from the list of items.
+
+Delete button should remove an item from the list of items.
 
 The text inside the post component should be editable. You can use an Input tag, or a simple tag with the property contenteditable enabled, you can choose how you want to do this.
 
