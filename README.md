@@ -35,11 +35,7 @@ ID is number, and it starts at 1 and then gets incremented by +1 every time a ne
 When the App component mounts, retrieve your data from localstorage, so that we display the data when user refreshes page.
 When a user adds a data item, store it in localstoarge so that it's properly synchronized.
 
-## Display
-
-Display all the items in three columns. One column with the items sorted by when they were added, and two more columns:
- - one more column with the same items, sorted alphabetically
- - one more column with the same items, sorted by character length
+Display all the items in one column.
 
 Display an item in its own Item component. The Item component will have the text, and two buttons "Delete" and "Update". 
 
